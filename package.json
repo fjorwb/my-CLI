@@ -1,5 +1,5 @@
 {
-  "name": "my-cli",
+  "name": "@fjorwb/my-cli",
   "version": "1.0.0",
   "description": "A tutorial on node cli publish in npm",
   "bin": {
