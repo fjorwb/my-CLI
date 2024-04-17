@@ -1,0 +1,28 @@
+{
+  "name": "my-cli",
+  "version": "1.0.0",
+  "description": "A tutorial on node cli publish in npm",
+  "bin": {
+    "my-cli": "bin/index.js"
+  },
+  "main": "bin/index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "prepublishOnly": "node prepublish.js && tsc",
+    "release": "cross-env RELEASE_MODE=true np --no-tests"
+  },
+  "author": "fjorwb",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "npm": "^10.5.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/yargs": "^17.0.32",
+    "cross-env": "^7.0.3",
+    "np": "^10.0.4",
+    "typescript": "^5.4.5"
+  }
+}
