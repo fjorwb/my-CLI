@@ -11,6 +11,9 @@
     "prepublishOnly": "node prepublish.js && tsc",
     "release": "cross-env RELEASE_MODE=true np --no-tests"
   },
+  "repository": {
+    "url": "https://github.com/fjorwb/my-CLI"
+  },
   "author": "fjorwb",
   "license": "ISC",
   "dependencies": {
