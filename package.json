@@ -12,6 +12,7 @@
     "release": "cross-env RELEASE_MODE=true np --no-tests"
   },
   "repository": {
+    "type": "git",
     "url": "https://github.com/fjorwb/my-CLI"
   },
   "author": "fjorwb",
